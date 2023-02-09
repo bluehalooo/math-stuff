@@ -61,3 +61,21 @@ function twinprime(input) {
 
 
  }
+ function squarenumber(input) {
+    if (Math.floor(Math.sqrt(input))**2 != input ) {
+        return(false)
+    }
+    else {
+        return(true)
+    }
+ }
+ function cubenumber(input) {
+    if (Math.floor(Math.cbrt(input))**3 != input ) {
+        return(false)
+    }
+    else {
+        return(true)
+    }
+ }
+ 
+ 
