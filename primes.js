@@ -33,5 +33,32 @@ function mersenne(input) {
         var willitwork = ((2**input)-1);
         return(prime(willitwork));
     }
+    else {
+        return(false)
+    }
 }
+
+//This checks if the input is a twin prime.
+
+function twinprime(input) {
+    if (prime(input)){
+        if (prime(input + 2)) {
+            return(true);
+        }
+        else if (prime(input - 2)) {
+                return(true); 
+                
+            }
+        else {
+            return(false);
+        }
+
+    }
+    else{
+        return(false)
+    }
+
+
+
+ }
 
