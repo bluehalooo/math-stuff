@@ -10,3 +10,11 @@ function findb(a,c) {
 function finda(b,c) {
     var b = Math.sqrt((c**2) - (b**2))
 }
+function isrightangle(a,b,c) {
+    if ((a**2) + (b**2) == (c**2)) {
+        return(true)
+    }
+    else {
+        return(false)
+    }
+}
