@@ -1,5 +1,5 @@
 
-function prime(x){
+export function prime(x){
 var prime = true;
 // If number is 1, not prime nor composite.
 if (x == 1){
@@ -28,7 +28,7 @@ if (prime == true) {
 }
 }
 //The following checks if the input will work as p in the equation (2^p)-1 = p, where p is a prime.
-function mersenne(input) {
+export function mersenne(input) {
     if (prime(input)) {
         var willitwork = ((2**input)-1);
         return(prime(willitwork));
@@ -40,7 +40,7 @@ function mersenne(input) {
 
 //This checks if the input is a twin prime.
 
-function twinprime(input) {
+export function twinprime(input) {
     if (prime(input)){
         if (prime(input + 2)) {
             return(true);
@@ -61,7 +61,7 @@ function twinprime(input) {
 
 
  }
- function squarenumber(input) {
+ export function squarenumber(input) {
     if (Math.floor(Math.sqrt(input))**2 != input ) {
         return(false)
     }
@@ -69,7 +69,7 @@ function twinprime(input) {
         return(true)
     }
  }
- function cubenumber(input) {
+export function cubenumber(input) {
     if (Math.floor(Math.cbrt(input))**3 != input ) {
         return(false)
     }
