@@ -8,7 +8,7 @@ function findb(a,c) {
     var b = Math.sqrt((c**2) - (a**2))
 }
 function finda(b,c) {
-    var b = Math.sqrt((c**2) - (b**2))
+    var a = Math.sqrt((c**2) - (b**2))
 }
 function isrightangle(a,b,c) {
     if ((a**2) + (b**2) == (c**2)) {
