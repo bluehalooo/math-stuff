@@ -77,5 +77,3 @@ export function cubenumber(input) {
         return(true)
     }
  }
- 
- 
