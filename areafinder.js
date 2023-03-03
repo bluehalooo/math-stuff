@@ -1,3 +1,5 @@
+import pi from './pi.js'
+
 function rectarea(x, y) {
     return(x*y);
 }
@@ -6,5 +8,5 @@ function triarea(base, height) {
 }
 
 function circarea(radius) {
-    
+    return rectarea(radius, radius) * pi()
 }
