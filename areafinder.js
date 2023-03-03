@@ -4,3 +4,7 @@ function rectarea(x, y) {
 function triarea(base, height) {
     return (.5 * base * height);
 }
+
+function circarea(radius) {
+    
+}
